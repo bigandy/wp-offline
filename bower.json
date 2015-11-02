@@ -1,0 +1,6 @@
+{
+  "name": "wp-offline",
+  "devDependencies": {
+	"foundation": "zurb/bower-foundation#~5.5.2"
+  }
+}
