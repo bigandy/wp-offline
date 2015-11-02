@@ -108,7 +108,7 @@ if ( ! function_exists( 'wpo_add_title_tag' ) ) {
 }
 
 if ( ! function_exists( 'wpo_remove_wp_version' ) ) {
-	wpo_remove_wp_version() {
+	function wpo_remove_wp_version() {
 		remove_action( 'wp_head', 'wp_generator' );
 	}
 	add_action( 'init', 'wpo_remove_wp_version' );
